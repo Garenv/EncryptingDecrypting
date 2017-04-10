@@ -5,7 +5,7 @@ public class EncryptDecrypt {
 			BufferedReader in = new BufferedReader(new FileReader("cryptographyTextFile.txt")); // Place file BufferedReader.
 			String line = in.readLine(); // Read only the first line in cyrtographTextFile.txt file.
 			int r = 0, c = 0, iterator = 0; // Initialize row, column, iterator.
-			char[][] table = new char[6][6]; // Character table of 6 rows & 5 columns.
+			char[][] table = new char[6][6]; // Character table of 6 rows & 6 columns.
 	
 			// Filling of array.
 			for(c = 0; c < 6; c++) {  // Goes through the rows.
@@ -41,7 +41,7 @@ public class EncryptDecrypt {
 		String line = in.readLine(); // Read first line in cryptographyTextFile.txt file.		
 		line = in.readLine(); // Read only the second line in cryptographyTextFile.txt file.
 		int r = 0, c = 0, iterator = 0; // Initialize row, column, iterator.
-		char[][] table = new char[6][6]; // Character table of 6 rows & 5 columns.
+		char[][] table = new char[6][6]; // Character table of 6 rows & 6 columns.
 
 		// Fill array.
 		for(r = 0; r < 6; r++) {  // Goes through the rows.
