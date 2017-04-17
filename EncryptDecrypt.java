@@ -60,7 +60,7 @@ public class EncryptDecrypt {
 		String file = "decrpyt.txt"; // File used to write in decrypted message.
 
 		try {
-			FileWriter fw = new FileWriter(file, true); // Place file in FileWriter, true allows file to appended writer.
+		    FileWriter fw = new FileWriter(file, true); // Place file in FileWriter, true allows file to appended writer.
 			for(c = 0; c < 6; c++) { // Goes through the columns.
 				for(r = 0; r < 6; r++) { // Goes through the rows.
 					fw.write(table[r][c] + " "); // Writes filled 2D array in char table.
